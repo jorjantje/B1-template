@@ -97,6 +97,7 @@ article{
   padding-left: 10px;
   margin: 1em 1em 1em 0;
 }
+
 article:last-of-type{
   margin-right: 0;
 }
@@ -108,7 +109,14 @@ article h2{
   background-position: center;
   background-size: cover;
   text-align: center;
+  text-shadow:
+  0 0 0 #FCFCFC,
+  -1px -1px 0 #FCFCFC,
+  1px -1px 0 #FCFCFC,
+  -1px 1px 0 #FCFCFC,
+  1px 1px 0 #FCFCFC; 
 }
+
 article h2.fun-for-family{
   background-image: url('../images/family-fun-george-arthur-pflueger.jpg');
 }
@@ -179,6 +187,17 @@ footer{
   display: block;
 }
 
+.emphasize{
+  padding: 1em;
+  box-shadow: 1px 1px 7px 1px #27AE60;
+  margin: 0px;
+}
+
+.emphasize h2{
+  margin: 0px;
+  text-align: center;
+}
+
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
@@ -204,7 +223,7 @@ footer{
     flex-direction: row;
     display: flex;
   }
-  
+
   .sidy-by-side{
     flex-direction: column;
     align-items: center;
